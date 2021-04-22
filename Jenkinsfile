@@ -17,7 +17,7 @@ pipeline {
             steps {
                 withSonarQubeEnv('My SonarQube Server') {
                     withMaven(maven:'Maven 3.5') {
-                        sh 'mvn sonar:sonar -Dsonar.organization=default-organization'
+                        sh 'mvn sonar:sonar -Dsonar.organization=sriawsdevops'
                     }
                 }
             }
