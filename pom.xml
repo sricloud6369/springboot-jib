@@ -55,7 +55,7 @@
         <version>2.4.0</version>
         <configuration>
           <from>
-            <image>openjdk:11-jdk-alpine</image>
+            <image>openjdk:8-jdk-alpine</image>
           </from>
           <to>
             <image>sricloud6369/springboot-jib:${project.version}</image>
