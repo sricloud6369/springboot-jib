@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('SCM') {
             steps {
-                git url: 'https://github.com/kvsiri/springboot-jib.git'
+                git url: 'https://github.com/sricloud6369/springboot-jib.git'
             }
         }
         stage('Compile') {
